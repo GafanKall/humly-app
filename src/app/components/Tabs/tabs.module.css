@@ -4,18 +4,22 @@
     align-items: flex-start;
     background-color: #293639; /* Warna background */
     color: white;
-    padding: 10px 0  0 0;
-    margin: 20px 0 0 0;
     width: 100%;
     border-bottom: 1px solid #3a4b56; /* Garis bawah container */
+    overflow-y: auto;
+    scrollbar-width: none;
+    z-index: 1;
 }
 
 .tabsHeader {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    position: relative;
+    position: sticky; 
+    top: 0; 
+    z-index: 10;
     border-bottom: 1px solid #3a4b56;
+    background-color: #293639;
 }
 
 .tab {
@@ -57,4 +61,8 @@
 .tabContent {
     font-size: 1rem;
     color: white;
+    overflow-y: auto; /* Mengizinkan scroll */
+    height: 400px; /* Tetapkan tinggi agar scroll dapat muncul */
+    scrollbar-width: none;  
 }
+

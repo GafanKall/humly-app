@@ -1,8 +1,8 @@
 "use client";
 import React, { useRef } from 'react';
-import styles from './createthreadhome.module.css';
+import styles from './formsnav.module.css';
 
-const CreateThreadHome = () => {
+const FormsNav = () => {
     const textareaRef = useRef<HTMLTextAreaElement | null>(null);
 
     const handleInput = () => {
@@ -42,4 +42,4 @@ const CreateThreadHome = () => {
     );
 };
 
-export default CreateThreadHome;
+export default FormsNav;
