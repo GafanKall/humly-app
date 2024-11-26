@@ -1,0 +1,84 @@
+.example2 {
+    background-color:transparent;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+    width: 100%;
+    border-bottom: rgba(255, 255, 255, 0.462) solid
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userInfo {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.time {
+    font-size: 1em;
+    color: #a0a0a0;
+}
+
+.moreOptions {
+    color: #a0a0a0;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.content {
+    padding: 0 0 0 70px;
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 0 0 70px;
+}
+
+.actionButton {
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.actionButton i {
+    font-size: 1.2em;
+}
+
+.actionButton:hover {
+    color: #ffffff;
+}
+
+.imageContent {
+    display: flex;
+    gap: 20px;
+}
+
+.imageContent img {
+    width: 250px;
+    height: 250px;
+}

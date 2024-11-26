@@ -1,0 +1,60 @@
+.tabsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #293639; /* Warna background */
+    color: white;
+    padding: 10px 0  0 0;
+    margin: 20px 0 0 0;
+    width: 100%;
+    border-bottom: 1px solid #3a4b56; /* Garis bawah container */
+}
+
+.tabsHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+    border-bottom: 1px solid #3a4b56;
+}
+
+.tab {
+    flex: 1;
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px 0;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.tab:hover {
+    color: #b5b5b5;
+}
+
+.active {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Underline untuk tab aktif */
+.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 4px; /* Tinggi underline */
+    background-color: white; /* Warna underline */
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabContent {
+    font-size: 1rem;
+    color: white;
+}

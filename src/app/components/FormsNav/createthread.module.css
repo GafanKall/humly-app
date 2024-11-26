@@ -1,0 +1,95 @@
+.createButton {
+    background-color: #1f8b8d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.createButton i {
+    margin-right: 5px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.createThreadContainer {
+    display: flex;
+    align-items: flex-start; 
+    width: 700px;
+    background-color: #293639;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    gap: 10px; 
+    margin-left: 80px;
+    border: rgba(255, 255, 255, 0.462) solid;
+}
+
+.avatar {
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.avatar img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.form {
+    width: 100%;
+}
+
+.textareaWrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.textarea {
+    flex: 1;
+    min-height: 40px;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    resize: none; /* Non-resizable */
+    overflow: hidden; /* Hide scrollbar */
+    border-radius: 5px;
+}
+
+.textarea:focus {
+    outline: none;
+}
+
+.submitButton,
+.imageButton {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    background: #031013;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.content {
+    display: flex;
+    width: 90%;
+    padding: 25px 0 25px 0;
+    justify-content: space-between;
+    border-bottom: solid rgba(255, 255, 255, 0.462);
+}
+
+.content img {
+    display: flex;
+    width: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar {
+    border-radius: 40px;
+}
+
+.notifInfo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.notifInfo h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.notifInfo p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.586);
+}
