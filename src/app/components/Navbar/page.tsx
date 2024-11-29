@@ -21,8 +21,8 @@ const Navbar = () => {
   };
 
   const openCreateThread = () => {
-    if (pathname !== '/HomePage') {
-      router.push('/HomePage'); // Pindahkan ke homepage
+    if (pathname !== '/pages/HomePage') {
+      router.push('/pages/HomePage'); // Pindahkan ke homepage
       setTimeout(() => setIsCreateThreadOpen(true), 300); // Tunggu hingga halaman ter-load
     } else {
       setIsCreateThreadOpen(true);
@@ -43,18 +43,18 @@ const Navbar = () => {
 
       <nav className={styles.navbar}>
         <div className={styles.logo}>
-          <Link href="/HomePage">
+          <Link href="/pages/HomePage">
             <img src="/images/Logo.png" alt="Logo" />
           </Link>
         </div>
         <ul className={styles.navLinks}>
-          <li className={pathname === '/HomePage' ? styles.active : ''}>
-            <Link href="/HomePage">
+          <li className={pathname === '/pages/HomePage' ? styles.active : ''}>
+            <Link href="/pages/HomePage">
               <i className='bx bx-home'></i>
             </Link>
           </li>
-          <li className={pathname === '/SearchPage' ? styles.active : ''}>
-            <Link href="/SearchPage">
+          <li className={pathname === '/pages/SearchPage' ? styles.active : ''}>
+            <Link href="/pages/SearchPage">
               <i className='bx bx-search-alt-2'></i>
             </Link>
           </li>
@@ -63,13 +63,13 @@ const Navbar = () => {
               <i className='bx bx-plus'></i>
             </button>
           </li>
-          <li className={pathname === '/NotifPage' ? styles.active : ''}>
-            <Link href="/NotifPage">
+          <li className={pathname === '/pages/NotifPage' ? styles.active : ''}>
+            <Link href="/pages/NotifPage">
               <i className='bx bx-heart'></i>
             </Link>
           </li>
-          <li className={pathname === '/ProfilePage' ? styles.active : ''}>
-            <Link href="/ProfilePage">
+          <li className={pathname === '/pages/ProfilePage' ? styles.active : ''}>
+            <Link href="/pages/ProfilePage">
               <i className='bx bx-user'></i>
             </Link>
           </li>

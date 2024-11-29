@@ -15,7 +15,7 @@
     border-radius: 100px;
 }
 
-.profileInfo{
+.profileInfo {
     display: flex;
     height: 100px;
     flex-direction: column;

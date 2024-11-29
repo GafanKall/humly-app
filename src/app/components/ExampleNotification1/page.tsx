@@ -5,7 +5,7 @@ const ExampleNotif1 = () => {
   return (
     <div className={styles.content}>
       <div className={styles.notifInfo}>
-        <img className={styles.avatar} src="./images/luffy.jpg" alt="" />
+        <img className={styles.avatar} src="/images/luffy.jpg" alt="" />
         <div className={styles.userInfo}>
           <h1>nika4life</h1>
           <p>menyukai utas anda</p>

@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar/page';
-import '../styles/globals.css';
-import ExampleSearchProfile from '../components/ExampleSearchPorfile/page';
-import SearchBar from '../components/SearchBar/page';
+import Navbar from '../../components/Navbar/page';
+import ExampleSearchProfile from '../../components/ExampleSearchPorfile/page';
+import SearchBar from '../../components/SearchBar/page';
+import '../../styles/globals.css';
 
 const SearchPage = () => {
   return (

@@ -1,8 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar/page';
-import Notif1 from '../components/ExampleNotification1/page';
-import Notif2 from '../components/ExampleNotification2/page';
-import '../styles/globals.css';
+import Navbar from '../../components/Navbar/page';
+import Notif1 from '../../components/ExampleNotification1/page';
+import Notif2 from '../../components/ExampleNotification2/page';
+import '../../styles/globals.css';
+
 
 const ActivityPage = () => {
   return (

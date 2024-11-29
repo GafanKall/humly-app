@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import styles from './createthread.module.css';
+import styles from './formsnav.module.css';
 
 type CreateThreadProps = {
     onClose: () => void;
