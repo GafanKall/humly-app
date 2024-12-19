@@ -17,13 +17,13 @@ const HomePage = () => {
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
 
   const handleInput = () => {
-      const textarea = textareaRef.current;
-      if (textarea) { // Periksa apakah textarea tidak null
-          textarea.style.height = 'auto'; // Reset height ke auto
-          textarea.style.height = `${textarea.scrollHeight}px`; // Sesuaikan height berdasarkan scrollHeight
-      }
+    const textarea = textareaRef.current;
+    if (textarea) { // Periksa apakah textarea tidak null
+      textarea.style.height = 'auto'; // Reset height ke auto
+      textarea.style.height = `${textarea.scrollHeight}px`; // Sesuaikan height berdasarkan scrollHeight
+    }
   };
-
+ 
   return (
     <div className="container">
       <div className="sidebar">
@@ -42,12 +42,12 @@ const HomePage = () => {
                 <div className={styles.inputGroup}>
                   {/* Avatar */}
                   <div className={styles.avatar}>
-                    <img src="/images/luffy.jpg" alt="Avatar" />
+                    <img src="/images/gomp.jpeg" alt="Avatar" />
                   </div>
                   {/* Container untuk textarea */}
                   <div className={styles.textareaContainer}>
                     <textarea
-                      ref={textareaRef} // hubgungin textarea ke ref
+                      ref={textareaRef} // hubungkan textarea ke ref
                       placeholder="Apa yang jadi highlight hari kalian?"
                       onInput={handleInput} // Panggil handleInput pas ada perubahan
                     />
@@ -63,16 +63,19 @@ const HomePage = () => {
                   </button>
                 </div>
               </div>
-              <Thread1 />
-              <Thread2 />
-              <Thread1 />
-              <Thread2 />
+              {/* Threads Container */}
+              <div className={styles.threadContainer}>
+                <Thread1 />
+                <Thread2 />
+                <Thread1 />
+                <Thread2 />
+              </div>
             </>
           ) : (
-            <>
+            <div className={styles.threadContainer}>
               <Thread2 />
               <Thread1 />
-            </>
+            </div>
           )}
         </div>
       </div>

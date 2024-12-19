@@ -11,7 +11,7 @@ const ExampleNotif1 = () => {
           <p>menyukai utas anda</p>
         </div>
       </div>
-      <img className='notifImage' src="./images/gom1.jpeg" alt="" />
+      <img className='notifImage' src="/images/gom1.jpeg" alt="" />
     </div>
   )
 }

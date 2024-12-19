@@ -82,7 +82,6 @@ const Navbar = () => {
       {/* Menu dropdown */}
       {menuOpen && (
         <div className={styles.dropdownMenu}>
-          <button onClick={closeMenu} className={styles.dropdownButton}>Setting</button>
           <button onClick={closeMenu} className={styles.dropdownButton}>Logout</button>
           <button onClick={closeMenu} className={styles.dropdownButton}>Dark Mode</button>
         </div>

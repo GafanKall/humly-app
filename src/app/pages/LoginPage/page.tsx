@@ -40,7 +40,7 @@ const LoginPage = () => {
           <button className={styles.button}>Create an Account</button>
           <div className={styles.loginText}>
             <p>Don't have an account?</p>
-            <Link href="/RegisterPage" className={styles.loginLink}>
+            <Link href="/pages/RegisterPage" className={styles.loginLink}>
               Register here!
             </Link>
           </div>

@@ -7,7 +7,7 @@ import Tabs from '../../components/Tabs/page';
 import '../../styles/globals.css';
 
 
-const PorfilePage = () => {
+const ProfilePage = () => {
   const [isEditing, setIsEditing] = useState(false); // State untuk modal edit
 
   const handleEditClick = () => {
@@ -17,7 +17,7 @@ const PorfilePage = () => {
   const handleCloseModal = () => {
     setIsEditing(false); // Tutup modal saat overlay atau tombol close diklik
   };
-  
+
   return (
     <div className="container">
       <div className="sidebar">
@@ -34,10 +34,11 @@ const PorfilePage = () => {
                 <div className={styles.usernameContainer}>
                   <h1 className="username">minsi.gom</h1>
                   <p className="handle">@gominsi</p>
-                </div>
-                <div className={styles.stats}>
-                  <span className="followers">2.000 pengikut</span>
-                  <span className="following">100 mengikuti</span>
+                  <p>lorem ipsum dolor si amet</p>
+                  <div className={styles.stats}>
+                    <span className="followers">2.000 pengikut</span>
+                    <span className="following">100 mengikuti</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -57,4 +58,4 @@ const PorfilePage = () => {
   )
 }
 
-export default PorfilePage
+export default ProfilePage

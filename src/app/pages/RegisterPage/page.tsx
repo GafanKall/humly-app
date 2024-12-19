@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../RegisterPage/registerPage.module.css';
 import Link from 'next/link';
-import 'boxicons/css/boxicons.min.css'; 
+import 'boxicons/css/boxicons.min.css';
 
 const RegisterPage = () => {
   return (
@@ -58,7 +58,7 @@ const RegisterPage = () => {
         <button className={styles.button}>Create an Account</button>
         <div className={styles.loginText}>
           <p>Already have an account?</p>
-          <Link href="/LoginPage" className={styles.loginLink}>
+          <Link href="/pages/LoginPage" className={styles.loginLink}>
             Login here!
           </Link>
         </div>

@@ -21,7 +21,7 @@ const ExampleThreads2 = () => {
                 <img src="/images/gom1.jpeg" alt=""/>
                 <img src="/images/gom2.jpeg" alt=""/>
                 </div>
-                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ullamcorper at diam nullam; magnis torquent cubilia nulla. Sollicitudin elit purus lobortis erat parturient. Congue scelerisque vehicula suscipit, curae urna eget. Adipiscing penatibus dui litora inceptos nam interdum. Sagittis sem lectus urna erat dolor volutpat finibus curae senectus. Inceptos at proin feugiat condimentum mus. Efficitur habitant maecenas tempor velit penatibus eros eu. Nisi volutpat proin dictumst sollicitudin in est blandit.</p>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ullamcorper at diam nullam; magnis torquent cubilia nulla. Sollicitudin elit purus lobortis erat parturient. Congue scelerisque vehicula suscipit, curae urna eget. Adipiscing penatibus dui litora inceptos nam interdum. Sagittis sem lectus urna erat dolor</p>
             </div>
             <div className={styles.actions}>
                 <button className={styles.actionButton}>
